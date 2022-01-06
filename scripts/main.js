@@ -13,7 +13,7 @@ menuLinks.forEach((link) => {
   link.addEventListener('click', toggleMenu);
 });
 
-// Create projects section dynamically 
+// Create projects section
 
 const cards = [];
 let counter = 0;
