@@ -75,6 +75,7 @@ header {
   padding: 10px 12px;
   margin-left: 12px;
   line-height: 24px;
+  order: -1;
 }
 
 .textPlaceholder a,
@@ -662,7 +663,7 @@ header {
   }
 
   #menuButton {
-    display: none;
+    display: block;
   }
 
   #navigation {
