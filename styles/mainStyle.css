@@ -37,6 +37,17 @@ ul {
   margin: 0;
 }
 
+input,
+textarea {
+  display: block;
+  border: none;
+  box-sizing: border-box;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
 
 /*  Toolbar styling */
 
@@ -96,6 +107,7 @@ header {
 
 #presentation {
   background-color: rgba(28, 26, 25, 1);
+  background-image: url(../images/illustration.svg);
   background-repeat: no-repeat;
   background-position: 100% 120%;
   background-size: auto;
@@ -182,6 +194,52 @@ header {
   gap: 24px;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 24px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgba(9, 30, 66, 1);
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.featured p {
+  color: rgba(9, 30, 66, 1);
+}
+
+.tag {
+  margin: 0 12px 0 0;
+  border: 1px solid rgba(137, 147, 164, 1);
+}
+
+.tags {
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+.tag a {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .other-desktop {
   display: none;
 }
@@ -192,6 +250,16 @@ header {
   color: rgba(255, 255, 255, 1);
 }
 
+/* Popup Window */
+.popUpButtons a {
+  margin-right: 16px;
+}
+
+/* PopUp Window */
+
+.featured .textPlaceholder a {
+  color: rgba(9, 30, 66, 1);
+}
 
 .interaction {
   display: block;
