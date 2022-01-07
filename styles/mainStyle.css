@@ -69,13 +69,17 @@ header {
   align-items: center;
 }
 
+
 .textPlaceholder {
   display: block;
   box-sizing: border-box;
   padding: 10px 12px;
-  margin-left: 12px;
+  margin-left: 24px;
   line-height: 24px;
-  order: -1;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 1);
 }
 
 .textPlaceholder a,
@@ -663,7 +667,7 @@ header {
   }
 
   #menuButton {
-    display: block;
+    display: none;
   }
 
   #navigation {
