@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap");
 
 html {
   height: 100%;
@@ -76,7 +76,7 @@ header {
   margin-left: 24px;
   line-height: 24px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   color: rgba(255, 255, 255, 1);
 }
@@ -84,7 +84,7 @@ header {
 .textPlaceholder a,
 .textPlaceholder p {
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   color: rgba(255, 255, 255, 1);
   margin: 0;
@@ -126,7 +126,7 @@ header {
 }
 
 .container h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 56px;
   font-weight: 500;
   color: rgba(255, 107, 0, 1);
@@ -135,14 +135,14 @@ header {
 
 .container h3,
 .container h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: rgba(255, 245, 225, 1);
 }
 
 .container p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 1);
@@ -177,7 +177,7 @@ header {
   box-sizing: border-box;
   padding-bottom: 40px;
   margin: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: rgba(28, 26, 25, 1);
@@ -212,14 +212,14 @@ header {
   display: block;
   box-sizing: border-box;
   margin-top: 24px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   color: rgba(9, 30, 66, 1);
 }
 
 .card p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -239,7 +239,7 @@ header {
 }
 
 .tag a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
@@ -270,7 +270,7 @@ header {
   padding: 12px;
   background: rgba(255, 107, 0, 1);
   color: rgba(255, 255, 255, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   margin: 0;
   font-weight: 700;
@@ -439,7 +439,7 @@ header {
 
 .about p {
   color: rgba(244, 245, 247, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-bottom: 36px;
 }
@@ -448,7 +448,7 @@ header {
   margin: 0;
   padding: 12px;
   color: rgba(255, 255, 255, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .categories {
@@ -457,7 +457,7 @@ header {
 
 .element p {
   display: block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
@@ -601,7 +601,7 @@ header {
 /* Form Valdiation */
 .error {
   display: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: rgb(204, 19, 19);
@@ -653,13 +653,13 @@ header {
   }
 
   .container h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 500;
   }
 
   .container p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -683,7 +683,7 @@ header {
   }
 
   .textPlaceholder a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -734,7 +734,7 @@ header {
   }
 
   .card h3 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-weight: 400;
   }
 
@@ -852,7 +852,7 @@ header {
   /* ID Styling */
   #presentation h2 {
     color: rgb(255, 255, 255);
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 500;
   }
@@ -876,7 +876,7 @@ header {
 
 @media screen and (min-width: 672px) and (max-width: 1230px) {
   .featured {
-    grid-column: 1/span 2;
+    grid-column: 1 / span 2;
   }
 }
 
@@ -886,10 +886,97 @@ header {
   }
 
   .featured {
-    grid-column: 1/span 3;
+    grid-column: 1 / span 3;
   }
 
   #presentation {
     background-size: auto;
   }
+}
+
+.contact_section {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_header {
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  font-style: normal;
+  color: #172b4d;
+  width: 327px;
+}
+
+.contact_form {
+  margin-top: 73px;
+  margin-right: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input1,
+.input2 {
+  border-bottom: 1px solid #dbd8d7;
+  width: 327px;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 14px;
+}
+
+.input1 {
+  margin-top: 73px;
+}
+
+.input2 {
+  margin-top: 39px;
+}
+
+.input3 {
+  background-color: #fbf8f7;
+  color: #3c3a39;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 327px;
+  height: 114px;
+  margin-top: 24px;
+  padding: 14px;
+}
+
+.contact_btn {
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: inter, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  padding: 12px;
+  margin-top: 24px;
+  margin-bottom: 124px;
+  width: 131px;
+}
+
+.contact_btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.contact_btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
