@@ -896,6 +896,10 @@ header {
 
 .contact_section {
   margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact_header {
@@ -906,6 +910,7 @@ header {
   text-align: center;
   font-style: normal;
   color: #172b4d;
+  width: 327px;
 }
 
 .contact_form {
@@ -932,4 +937,28 @@ header {
   width: 303px;
   height: 90px;
   
+}
+
+.contact_btn {
+  background-color: #FF6B00;
+  color: #FFF;
+  font-family: inter, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 124px;
+}
+
+.contact_btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.contact_btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
