@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio: mobile version
 
-> This is the first Microverse project prepared for module one, where we look at the basics of how to write proper HTML/CSS while building a project. 
+> This is the Third Project and i have added a portfolio section showing the projects worked on. 
 
 
 This is a Portfolio that works as a presentation card for a Software developer, showcasing some important projects, personal and contact info, while keeping a fresh and elegant web design. 
