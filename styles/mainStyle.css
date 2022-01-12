@@ -980,3 +980,38 @@ header {
   background-color: #e05304;
   color: #f4f1f0;
 }
+
+.header_title {
+  position: absolute;
+  background: #3c3a39;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.port_name {
+  width: 50%;
+  height: 24px;
+  margin-left: 12px;
+  margin-top: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.port_nav {
+  display: flex;
+  padding-left: 20px;
+  margin-left: 16.67%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
