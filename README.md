@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is the first Microverse project prepared for module one, where we look at the basics of how to write proper HTML/CSS while building a project. 
+> This is Microverse project involued pair programing and we add contact form. 
 
 
 This is a Portfolio that works as a presentation card for a Software developer, showcasing some important projects, personal and contact info, while keeping a fresh and elegant web design. 
