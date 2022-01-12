@@ -10,11 +10,11 @@
   </head>
 
   <body>
-    <header class="toolbar">
-      <a class="textPlaceholder" href="#" aria-label="Ssenkooto Stephen">
+    <header class="toolbar header_title">
+      <a class="port_name" href="#" aria-label="Ssenkooto Stephen">
         Ssenkooto Stephen
       </a>
-      <nav>
+      <nav class="port_nav">
         <ul>
           <li>
             <button id="menuButton" type="button">
@@ -106,16 +106,19 @@
           type="text"
           placeholder="Full name"
           maxlength="30"
+          name="Fullname"
           required
         />
         <input
           class="input2"
           type="email"
           placeholder="Email address"
+          name="Email"
           required
         />
         <textarea
           class="input3"
+          name="Message"
           maxlength="500"
           rows="10"
           cols="15"
