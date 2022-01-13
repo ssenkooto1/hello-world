@@ -553,10 +553,6 @@ input:hover {
 
 /* Animation */
 
-.contact_btn {
-  transition: color 900ms ease-in, border 900ms ease-in;
-}
-
 .dot {
   display: inline-block;
   width: 5px;
@@ -931,11 +927,12 @@ input:hover {
 }
 
 @keyframes slidein {
-  from{
+  from {
     margin-left: 100%;
     width: 300%;
   }
-  to{
+  
+  to {
     margin-left: 0%;
     width: 100%;
   }
@@ -997,10 +994,11 @@ input:hover {
   margin-top: 24px;
   margin-bottom: 124px;
   width: 131px;
+  transition: color 500ms ease-in, border 500ms ease-in;
 }
 
 .contact_btn:hover {
-  background-color: #fff5e1;
+  background-color: #e6d7bb;
   color: #f55800;
 }
 
