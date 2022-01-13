@@ -924,6 +924,21 @@ header {
   font-style: normal;
   color: #172b4d;
   width: 327px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .contact_form {
