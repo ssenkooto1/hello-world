@@ -553,6 +553,10 @@ header {
 
 /* Animation */
 
+.contact_btn {
+  transition: color 900ms ease-in, border 900ms ease-in;
+}
+
 .dot {
   display: inline-block;
   width: 5px;
