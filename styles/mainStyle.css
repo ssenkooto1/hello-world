@@ -9,6 +9,15 @@ body {
   height: 100%;
 }
 
+input {
+  transition: transform 500ms, background-color 500ms;
+}
+
+input:hover {
+  background-color: #dbd8d7;
+  transform: translate(10%, 10%);
+}
+
 h1,
 h3,
 h2,
