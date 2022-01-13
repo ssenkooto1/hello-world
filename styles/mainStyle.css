@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+input {
+  transition: transform 500ms, background-color 500ms;
+}
+
 h1,
 h3,
 h2,
@@ -89,6 +93,11 @@ header {
   color: rgba(255, 255, 255, 1);
   margin: 0;
   box-sizing: border-box;
+}
+
+input:hover {
+  background-color: #dbd8d7;
+  transform: translate(10%, 10%);
 }
 
 .menu-item a {
@@ -911,6 +920,22 @@ header {
   font-style: normal;
   color: #172b4d;
   width: 327px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .contact_form {
@@ -969,10 +994,11 @@ header {
   margin-top: 24px;
   margin-bottom: 124px;
   width: 131px;
+  transition: color 500ms ease-in, border 500ms ease-in;
 }
 
 .contact_btn:hover {
-  background-color: #fff5e1;
+  background-color: #e6d7bb;
   color: #f55800;
 }
 
